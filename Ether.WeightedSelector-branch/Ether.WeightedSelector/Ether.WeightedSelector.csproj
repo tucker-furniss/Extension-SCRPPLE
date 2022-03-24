@@ -20,7 +20,7 @@ In one of the examples, we implement a game AI that decides between attacking, f
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <OutputPath>~\Core-Model-v7-LINUX\build\extensions</OutputPath>
+    <OutputPath>..\..\..\build\extensions</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
